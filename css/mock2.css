@@ -1,0 +1,270 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    background-color: #0A5D6A;
+    /* background-color: #2DA6B2; */
+    /* background-color: #1C3C4F; */
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Bootstrap gutter reset */
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* End bootstrap gutter reset */
+
+/* Page styles */
+.page-header {
+    background-color: #1D3C50;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+}
+.dash-nav {
+    background-color: #D41A40;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+.dash-nav-list li {
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.dash-nav-list li.active {
+    font-weight: bold;
+}
+.dash-nav-list a {
+    color: white;
+    cursor: pointer;
+}
+.dash-nav-list a.active, a.hover, a.visited {
+    color: white;
+}
+/* End page styles */
+
+/* KPI styles */
+
+.kpi-box {
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
+    height: 98.5%
+}
+.kpi-title {
+    float: left;
+    font-size: 14px;
+}
+.kpi-title strong {
+    font-weight: 600;
+}
+.kpi-source {
+    float: right;
+    color: #888;
+    font-size: 10px;
+}
+.kpi-description {
+    clear: both;
+    font-size: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.control-box {
+    margin-top: 5px;
+    background-color: #AFE1DE;
+    padding: 5px;
+}
+.kpi-control {
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+/* End KPI styles */
+
+.banner-toggle {
+    position: absolute;
+    right: -120px;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Ticker styles */
+.ticker {
+    background-color: #c0f259;
+    color: #555;
+    font-size: 14px;
+}
+.ticker-item td {
+    padding: 3px;
+}
+td.ticker-header {
+    color: black;
+    font-weight: 600;
+    text-align: right;
+}
+table.numbers-table td {
+    padding-left: 15px;
+}
+tr.regions {
+    color: #D74F1C;
+    font-weight: 600;
+}
+tr.numbers td {
+    font-weight: 100;
+    font-size: 24px;
+}
+.slick-prev, .slick-next {
+    display: none !important;
+}
+/* End ticker styles */
+
+/* Bunch graphic styles */
+.bunch-graphic {
+    display: none;
+    background-color: #c0f259;
+    color: #555;
+    font-size: 14px;
+}
+.bunch-item {
+    display: inline-block;
+    margin-right: 30px;
+}
+.bunch-item td {
+    padding: 3px;
+}
+/* End bunch graphic styles */
+
+/* Breakdown chart */
+.metric-block {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    /* border: 1px solid white; */
+}
+.mb-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+.mb-act {
+    font-size: 20px;
+    font-weight: 100;
+    display: inline-block;
+    margin-right: 10px;
+}
+.mb-act span.num-value {
+    font-size: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.mb-bud {
+    font-size: 18px;
+    font-weight: 100;
+    display: inline-block;
+}
+.mb-glob {
+    background-color: #4B5765;
+    width: 100%;
+}
+.mb-usa {
+    background-color: #FF6060;
+    width: 38%;
+}
+.mb-jp {
+    background-color: #F0A644;
+    width: 15%;
+}
+.mb-emea {
+    background-color: #40B7B0;
+    width: 23%;
+}
+.mb-aob {
+    background-color:#823182;
+    width: 24%;
+}
+/* End breakdown chart */
+
+/* KPI box exceptions */
+.kpi-pp, .kpi-rms, .kpi-pop, .kpi-flt3 {
+    margin-left: 5px;
+    height: 98.5%;
+}
+.pp-chart {
+    height: 95%;
+}
+/* End KPI box exceptions */
+
+/* Dashboards */
+
+.db-image {
+    margin-top: 5px;
+}
+/* End dashboards */
+
+.flt-table {
+    width: 100%;
+    margin-top: 30px;
+}
+.flt-table td {
+    padding: 3px;
+}
+.flt-table td.region-cell {
+    font-weight: bold;
+    color: #D41A40;
+    vertical-align: top;
+    width: 40px;
+}
+.flt-table td.flt-value {
+    font-size: 30px;
+    font-family: serif;
+}
+.flt-table tr.diag-row {
+    border-top: 1px solid #CCC;
+    
+}
+.flt-table tr.diag-row td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}

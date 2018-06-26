@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Global KPI Dashboard - Xtandi</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="slick/slick.css" />
+        <link rel="stylesheet" href="css/mock2.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <!-- Page header -->
+                <div class="page-header col-sm-12">
+                    Astellas KPI Dashboard
+                </div>
+
+                <!-- Dashboard navigation -->
+                <div class="dash-nav col-sm-12">
+                    <ul class="dash-nav-list">
+                        <li><a href="gilt.html">gilteritinib</a></li>
+                        <li class="active">Xtandi</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="xtandi-db">
+                <div class="row">
+                    <!-- Ticker tape -->
+                    <div class="kpi-box ticker col-sm-12">
+                        <div class="ticker-list">
+                            <div class="ticker-item">
+                                <table>
+                                    <tr>
+                                        <td class="ticker-header">Patients treated<br/>since launch</td>
+                                        <td>
+                                            <table class="numbers-table">
+                                                <tr class="regions">
+                                                    <td>Global</td>
+                                                    <td>USA</td>
+                                                    <td>EMEA</td>
+                                                    <td>AOB</td>
+                                                    <td>JP</td>
+                                                </tr>
+                                                <tr class="numbers">
+                                                    <td>258,000</td>
+                                                    <td>150,000</td>
+                                                    <td>63,000</td>
+                                                    <td>10,000</td>
+                                                    <td>35,000</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="ticker-item">
+                                <table>
+                                    <tr>
+                                        <td class="ticker-header">Overall Positive<br/>Perception of Xtandi</td>
+                                        <td>
+                                            <table class="numbers-table">
+                                                <tr class="regions">
+                                                    <td>USA</td>
+                                                    <td>JP</td>
+                                                </tr>
+                                                <tr class="numbers">
+                                                    <td>67%</td>
+                                                    <td>63%</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="ticker-item">
+                                <table>
+                                    <tr>
+                                        <td class="ticker-header">Caroline's<br/>awesomeness</br>index</td>
+                                        <td>
+                                            <table class="numbers-table">
+                                                <tr class="regions">
+                                                    <td>Global</td>
+                                                </tr>
+                                                <tr class="numbers">
+                                                    <td>110%</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dashboard KPIs -->
+
+                    <!-- Net sales -->
+                    <div class="kpi-box col-sm-12">
+                        <div class="kpi-title">
+                            <strong>Net Sales FYTD</strong> of Xtandi
+                        </div>
+                        <div class="kpi-source">
+                            Source: IMS Data | Updated March 2018 <i class="fa fa-info-circle"></i>
+                        </div>
+                        <div class="kpi-description">
+                            Xtandi Net Sales in millions of dollars to the current month in the current fiscal year with Actual sales value tracked as a percentage of Budgeted value
+                        </div>
+                        <div class="control-box">
+                            <span class="kpi-control"><img src="images/chevup.png" width="20px"></span>
+                            <span class="kpi-control"><img src="images/ruler.png" width="20px"></span>
+                        </div>
+                        <table style="width: 100%">
+                            <tr>
+                                <td class="metric-block mb-glob">
+                                    <div class="mb-title">Global</div>
+                                    <div class="mb-act">$<span class="num-value">132</span>M</div>
+                                    <div class="mb-bud">(110%)</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="metric-block mb-usa">
+                                    <div class="mb-title">USA</div>
+                                    <div class="mb-act">$<span class="num-value">50</span>M</div>
+                                    <div class="mb-bud">(111%)</div>
+                                </td>
+                                <td class="metric-block mb-jp">
+                                    <div class="mb-title">JP</div>
+                                    <div class="mb-act">$<span class="num-value">20</span>M</div>
+                                    <div class="mb-bud">(80%)</div>
+                                </td>
+                                <td class="metric-block mb-emea">
+                                    <div class="mb-title">EMEA</div>
+                                    <div class="mb-act">$<span class="num-value">30</span>M</div>
+                                    <div class="mb-bud">(150%)</div>
+                                </td>
+                                <td class="metric-block mb-aob">
+                                    <div class="mb-title">AOB</div>
+                                    <div class="mb-act">$<span class="num-value">32</span>M</div>
+                                    <div class="mb-bud">(107%)</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Global Market Share -->
+                    <div class="col-md-6">
+                        <div class="kpi-box kpi-gms">
+                            <div class="kpi-title">
+                                <strong>Global Market Share:</strong> Xtandi
+                            </div>
+                            <div class="kpi-source">
+                                Source: IMS Data | Updated January 2018 <i class="fa fa-info-circle"></i>
+                            </div>
+                            <div style="text-align: center">
+                                <img src="images/gms.png" alt="Intent to Prescribe" width="98%">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Regional Market Share -->
+                    <div class="col-md-6">
+                            <div class="kpi-box kpi-rms">
+                                <div class="kpi-title">
+                                    <strong>Regional Market Share</strong> of Xtandi
+                                </div>
+                                <div class="kpi-source">
+                                    Source: IMS Data | Updated March 2018 <i class="fa fa-info-circle"></i>
+                                </div>
+                                <div class="kpi-description">
+                                    % of market held by the Astellas brand as compared to a standard market basket.
+                                </div>
+                                <div style="text-align: center">
+                                    <img src="images/rms.png" alt="Intent to Prescribe" width="98%">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- JS includes -->
+        <script src="js/jquery.min.js"></script>
+        <script src="slick/slick.min.js"></script>
+        <script src="js/Chart.min.js"></script>
+        <script src="http://d3js.org/d3.v4.min.js"></script>
+        <script src="node_modules/c3/c3.min.js"></script>
+        <script src="node_modules/d3-selection/dist/d3-selection.min.js"></script>
+        <script src="node_modules/britecharts/dist/bundled/britecharts.min.js"></script>
+        <script src="js/mock2.js"></script>
+    </body>
+</html>

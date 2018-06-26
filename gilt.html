@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Global KPI Dashboard - gilteritinib</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="slick/slick.css" />
+        <link rel="stylesheet" href="css/mock2.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <!-- Page header -->
+                <div class="page-header col-sm-12">
+                    Astellas KPI Dashboard
+                </div>
+
+                <!-- Dashboard navigation -->
+                <div class="dash-nav col-sm-12">
+                    <ul class="dash-nav-list">
+                        <li class="active">gilteritinib</li>
+                        <li><a href="xtandi.html">Xtandi</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="gilt-db">
+                <div class="row">
+                    <!-- Physician Awareness -->
+                    <div class="col-md-6">
+                        <div class="kpi-box">
+                            <div class="kpi-title">
+                                <strong>Physician Awareness</strong> of gilteritinib
+                            </div>
+                            <div class="kpi-source">
+                                Source: IMS Data | Updated March 2018 <i class="fa fa-info-circle"></i>
+                            </div>
+                            <img src="images/pa.png" alt="Physician Awareness" width="98%" style="margin-top: 40px;" class="db-image">
+                        </div>
+                    </div>
+
+                    <!-- Physician Perception -->
+                    <div class="col-md-6">
+                        <div class="kpi-box kpi-pop">
+                            <div class="kpi-title">
+                                <strong>Physician Perception</strong> of gilteritinib
+                            </div>
+                            <div class="kpi-source">
+                                Source: IMS Data | Updated January 2018 <i class="fa fa-info-circle"></i>
+                            </div>
+                            <div style="clear: both"></div>
+                            <!-- <div class="row">
+                                <div class="col-md-6">
+                                    <canvas class="pp-chart" id="ppChart1"></canvas>
+                                </div>
+                                <div class="col-md-6">
+                                    <canvas class="pp-chart" id="ppChart2"></canvas>
+                                </div>
+                            </div> -->
+                            <div style="text-align: center">
+                                <img src="images/pp.png" alt="Physician Perception" class="db-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="kpi-box">
+                            <div class="kpi-title">
+                                <strong>Recall of the DSA Campaign and Company Association</strong>
+                            </div>
+                            <div class="kpi-source">
+                                Source: IMS Data | Updated March 2018 <i class="fa fa-info-circle"></i>
+                            </div>
+                            <div style="text-align: center">
+                                <img src="images/dsa.png" alt="DSA Campaign" width="98%" class="db-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="kpi-box kpi-flt3">
+                            <div class="kpi-title">
+                                <strong>FLT3 Testing Rate</strong>
+                            </div>
+                            <div class="kpi-source">
+                                Updated January 2018 <i class="fa fa-info-circle"></i>
+                            </div>
+                            <div style="clear: both"></div>
+                            <div>
+                                <table border="0" class="flt-table">
+                                    <tr class="diag-row">
+                                        <td colspan="4">
+                                            Newly Diagnosed / HIC
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="region-cell">
+                                            AM
+                                        </td>
+                                        <td class="flt-value">
+                                            25%
+                                        </td>
+                                        <td class="region-cell">
+                                            JP
+                                        </td>
+                                        <td class="flt-value">
+                                            27%
+                                        </td>
+                                    </tr>
+                                    <tr class="diag-row">
+                                        <td colspan="4">
+                                            Newly Diagnosed / LIC
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="region-cell">
+                                            AM
+                                        </td>
+                                        <td class="flt-value">
+                                            12%
+                                        </td>
+                                        <td class="region-cell">
+                                            JP
+                                        </td>
+                                        <td class="flt-value">
+                                            12%
+                                        </td>
+                                    </tr>
+                                    <tr class="diag-row">
+                                        <td colspan="4">
+                                            Relapsed
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="region-cell">
+                                            AM
+                                        </td>
+                                        <td class="flt-value">
+                                            19%
+                                        </td>
+                                        <td class="region-cell">
+                                            JP
+                                        </td>
+                                        <td class="flt-value">
+                                            11%
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- JS includes -->
+        <script src="js/jquery.min.js"></script>
+        <script src="slick/slick.min.js"></script>
+        <script src="js/Chart.min.js"></script>
+        <script src="http://d3js.org/d3.v4.min.js"></script>
+        <script src="node_modules/c3/c3.min.js"></script>
+        <script src="node_modules/d3-selection/dist/d3-selection.min.js"></script>
+        <script src="node_modules/britecharts/dist/bundled/britecharts.min.js"></script>
+        <script src="js/mock2.js"></script>
+    </body>
+</html>
